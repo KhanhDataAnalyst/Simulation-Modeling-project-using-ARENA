@@ -1,0 +1,550 @@
+SIMAN Run Controller.
+
+0.0 Hours>
+                                      ARENA Simulation Results
+                                     University of Huddersfield
+
+                                  Summary for Replication 1 of 3
+
+Project: Assessment sample Mobile phone                              Run execution date :11/16/2023
+Analyst: University of Huddersfield                                  Model revision date:11/16/2023
+
+Replication ended at time      : 420.0 Hours (Sunday, December 03, 2023, 11:09:02)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Record failed order 2                       324.08     (Insuf)    324.08     324.08          1    
+Record failed order 1                       155.80     (Insuf)    14.146     397.61          7    
+Record scrapped parts                       206.84     (Insuf)    18.614     412.28         40    
+Record complete order 2                     262.69     (Insuf)    104.08     414.36         15    
+Record complete order 1                     192.50     (Insuf)    25.350     376.85         18    
+Record salvaged parts                       210.36     (Corr)     1.8912     418.30        776    
+Record shipped parts                        210.22     (Corr)     .57107     419.98       7574    
+Phone 2.VATime                              44.591     (Insuf)    .60267     104.61         39    
+Phone 2.NVATime                             .00000     (Insuf)    .00000     .00000         39    
+Phone 2.WaitTime                            506.51     (Insuf)    1.1591     1188.8         39    
+Phone 2.TranTime                            14.841     (Insuf)    .16667     33.833         39    
+Phone 2.OtherTime                           .00000     (Insuf)    .00000     .00000         39    
+Phone 2.TotalTime                           7.7216     (Insuf)    1.9770     17.304         39    
+Phone 2.VACost                              455.74     (Insuf)    4.3567     1225.9         39    
+Phone 2.NVACost                             .00000     (Insuf)    .00000     .00000         39    
+Phone 2.WaitCost                            .00000     (Insuf)    .00000     .00000         39    
+Phone 2.TranCost                            .00000     (Insuf)    .00000     .00000         39    
+Phone 2.OtherCost                           .00000     (Insuf)    .00000     .00000         39    
+Phone 2.TotalCost                           455.74     (Insuf)    4.3567     1225.9         39    
+Phone 1.VATime                              58.637     (Insuf)    .61446     104.44         42    
+Phone 1.NVATime                             .00000     (Insuf)    .00000     .00000         42    
+Phone 1.WaitTime                            663.76     (Insuf)    1.1554     1186.6         42    
+Phone 1.TranTime                            19.404     (Insuf)    .16667     33.833         42    
+Phone 1.OtherTime                           .00000     (Insuf)    .00000     .00000         42    
+Phone 1.TotalTime                           9.6391     (Insuf)    1.9995     17.612         42    
+Phone 1.VACost                              562.43     (Insuf)    4.2867     1136.2         42    
+Phone 1.NVACost                             .00000     (Insuf)    .00000     .00000         42    
+Phone 1.WaitCost                            .00000     (Insuf)    .00000     .00000         42    
+Phone 1.TranCost                            .00000     (Insuf)    .00000     .00000         42    
+Phone 1.OtherCost                           .00000     (Insuf)    .00000     .00000         42    
+Phone 1.TotalCost                           562.43     (Insuf)    4.2867     1136.2         42    
+Ship delivery.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000         25    
+Ship delivery.Queue.WaitingCost             .00000     (Insuf)    .00000     .00000         25    
+Preparation.Queue.WaitingTime               .19426     (Corr)     .00000     .46027       8400    
+Preparation.Queue.WaitingCost               .00000     .00000     .00000     .00000       8400    
+Order are weighted.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000         41    
+Order are weighted.Queue.WaitingCost        .00000     (Insuf)    .00000     .00000         41    
+Plane delivery.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000         16    
+Plane delivery.Queue.WaitingCost            .00000     (Insuf)    .00000     .00000         16    
+Packaging.Queue.WaitingTime                 4.9900     .17099     .00000     10.206       8200    
+Packaging.Queue.WaitingCost                 .00000     .00000     .00000     .00000       8200    
+Rework process.Queue.WaitingTime            .52055     .03047     .00000     1.2956        821    
+Rework process.Queue.WaitingCost            .00000     .00000     .00000     .00000        821    
+Quality check.Queue.WaitingTime             .01651     .00118     .00000     .12935       8400    
+Quality check.Queue.WaitingCost             .00000     .00000     .00000     .00000       8400    
+Assembling process.Queue.WaitingTime        .55327     (Corr)     .00000     1.2936       8400    
+Assembling process.Queue.WaitingCost        .00000     .00000     .00000     .00000       8400    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Phone 2.WIP                                 101.42     (Insuf)    .00000     178.00     100.00    
+Phone 1.WIP                                 98.712     (Insuf)    .00000     180.00     100.00    
+Labor 1.NumberBusy                          1.1125     .00482     .00000     5.0000     .00000    
+Labor 1.NumberScheduled                     5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Labor 1.Utilization                         .22251      9.6355E-4 .00000     1.0000     .00000    
+Labor 2.NumberBusy                          4.2214     .00846     .00000     5.0000     .00000    
+Labor 2.NumberScheduled                     5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Labor 2.Utilization                         .84429     .00169     .00000     1.0000     .00000    
+Machine 1.NumberBusy                        4.5459     .02471     .00000     5.0000     5.0000    
+Machine 1.NumberScheduled                   5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Machine 1.Utilization                       .90918     .00494     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        4.2223     .01081     .00000     5.0000     5.0000    
+Machine 2.NumberScheduled                   5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Machine 2.Utilization                       .84447     .00216     .00000     1.0000     1.0000    
+Machine 3.NumberBusy                        .00813     (Insuf)    .00000     1.0000     .00000    
+Machine 3.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Machine 3.Utilization                       .00407     (Insuf)    .00000     .50000     .00000    
+Plane.NumberBusy                            .06674     (Insuf)    .00000     1.0000     .00000    
+Plane.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Plane.Utilization                           .06674     (Insuf)    .00000     1.0000     .00000    
+Ship.NumberBusy                             .23380     (Insuf)    .00000     1.0000     .00000    
+Ship.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Ship.Utilization                            .23380     (Insuf)    .00000     1.0000     .00000    
+Ship delivery.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Preparation.Queue.NumberInQueue             3.8851     .02164     .00000     35.000     .00000    
+Order are weighted.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Plane delivery.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Packaging.Queue.NumberInQueue               98.768     (Corr)     .00000     200.00     150.00    
+Rework process.Queue.NumberInQueue          1.0175     .08878     .00000     10.000     .00000    
+Quality check.Queue.NumberInQueue           .33024     .02718     .00000     5.0000     .00000    
+Assembling process.Queue.NumberInQueue      11.065     .06860     .00000     30.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Phone 2.NumberIn                            4237.0    
+Phone 2.NumberOut                           4137.0    
+Phone 1.NumberIn                            4244.0    
+Phone 1.NumberOut                           4144.0    
+Labor 1.NumberSeized                        8400.0    
+Labor 1.ScheduledUtilization                .22251    
+Labor 1.BusyCost                            4205.4    
+Labor 1.IdleCost                            .00000    
+Labor 1.UsageCost                           .00000    
+Labor 2.NumberSeized                        8400.0    
+Labor 2.ScheduledUtilization                .84429    
+Labor 2.BusyCost                            15957.    
+Labor 2.IdleCost                            .00000    
+Labor 2.UsageCost                           .00000    
+Machine 1.NumberSeized                      9221.0    
+Machine 1.ScheduledUtilization              .90918    
+Machine 1.BusyCost                          7636.0    
+Machine 1.IdleCost                          .00000    
+Machine 1.UsageCost                         .00000    
+Machine 2.NumberSeized                      8400.0    
+Machine 2.ScheduledUtilization              .84447    
+Machine 2.BusyCost                          7092.6    
+Machine 2.IdleCost                          .00000    
+Machine 2.UsageCost                         .00000    
+Machine 3.NumberSeized                      41.000    
+Machine 3.ScheduledUtilization              .00407    
+Machine 3.BusyCost                          13.666    
+Machine 3.IdleCost                          .00000    
+Machine 3.UsageCost                         .00000    
+Plane.NumberSeized                          16.000    
+Plane.ScheduledUtilization                  .06674    
+Plane.BusyCost                              4204.7    
+Plane.IdleCost                              .00000    
+Plane.UsageCost                             .00000    
+Ship.NumberSeized                           25.000    
+Ship.ScheduledUtilization                   .23380    
+Ship.BusyCost                               2945.8    
+Ship.IdleCost                               .00000    
+Ship.UsageCost                              .00000    
+All Entities.VACost                         42055.    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      42055.    
+All Resources.BusyCost                      42055.    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     42055.    
+System.TotalCost                            42055.    
+System.NumberOut                            81.000    
+
+Beginning replication 2 of 3
+
+                                      ARENA Simulation Results
+                                     University of Huddersfield
+
+                                  Summary for Replication 2 of 3
+
+Project: Assessment sample Mobile phone                              Run execution date :11/16/2023
+Analyst: University of Huddersfield                                  Model revision date:11/16/2023
+
+Replication ended at time      : 420.0 Hours (Sunday, December 03, 2023, 11:09:02)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Record failed order 2                           --         --         --         --          0
+Record failed order 1                       90.607     (Insuf)    15.294     165.91          2    
+Record scrapped parts                       203.49     (Insuf)    8.1364     406.06         33    
+Record complete order 2                     188.95     (Insuf)    43.660     404.22         17    
+Record complete order 1                     246.67     (Insuf)    25.589     417.68         22    
+Record salvaged parts                       213.42     (Corr)     2.0065     418.08        812    
+Record shipped parts                        209.94     (Corr)     .62011     419.98       7546    
+Phone 2.VATime                              56.510     (Insuf)    .61507     105.30         40    
+Phone 2.NVATime                             .00000     (Insuf)    .00000     .00000         40    
+Phone 2.WaitTime                            640.84     (Insuf)    1.0853     1184.8         40    
+Phone 2.TranTime                            18.683     (Insuf)    .16667     33.833         40    
+Phone 2.OtherTime                           .00000     (Insuf)    .00000     .00000         40    
+Phone 2.TotalTime                           9.2519     (Insuf)    1.8670     17.684         40    
+Phone 2.VACost                              566.66     (Insuf)    4.3438     1190.1         40    
+Phone 2.NVACost                             .00000     (Insuf)    .00000     .00000         40    
+Phone 2.WaitCost                            .00000     (Insuf)    .00000     .00000         40    
+Phone 2.TranCost                            .00000     (Insuf)    .00000     .00000         40    
+Phone 2.OtherCost                           .00000     (Insuf)    .00000     .00000         40    
+Phone 2.TotalCost                           566.66     (Insuf)    4.3438     1190.1         40    
+Phone 1.VATime                              57.293     (Insuf)    .61705     105.19         34    
+Phone 1.NVATime                             .00000     (Insuf)    .00000     .00000         34    
+Phone 1.WaitTime                            651.61     (Insuf)    1.2109     1196.0         34    
+Phone 1.TranTime                            18.980     (Insuf)    .16667     33.833         34    
+Phone 1.OtherTime                           .00000     (Insuf)    .00000     .00000         34    
+Phone 1.TotalTime                           9.4040     (Insuf)    2.0272     16.730         34    
+Phone 1.VACost                              567.08     (Insuf)    4.3702     1214.4         34    
+Phone 1.NVACost                             .00000     (Insuf)    .00000     .00000         34    
+Phone 1.WaitCost                            .00000     (Insuf)    .00000     .00000         34    
+Phone 1.TranCost                            .00000     (Insuf)    .00000     .00000         34    
+Phone 1.OtherCost                           .00000     (Insuf)    .00000     .00000         34    
+Phone 1.TotalCost                           567.08     (Insuf)    4.3702     1214.4         34    
+Ship delivery.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000         24    
+Ship delivery.Queue.WaitingCost             .00000     (Insuf)    .00000     .00000         24    
+Preparation.Queue.WaitingTime               .19439     (Corr)     .00000     .44014       8400    
+Preparation.Queue.WaitingCost               .00000     .00000     .00000     .00000       8400    
+Order are weighted.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000         41    
+Order are weighted.Queue.WaitingCost        .00000     (Insuf)    .00000     .00000         41    
+Plane delivery.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000         17    
+Plane delivery.Queue.WaitingCost            .00000     (Insuf)    .00000     .00000         17    
+Packaging.Queue.WaitingTime                 5.0068     .17292     .00000     10.214       8200    
+Packaging.Queue.WaitingCost                 .00000     .00000     .00000     .00000       8200    
+Rework process.Queue.WaitingTime            .52452     .03580     .00000     1.2965        848    
+Rework process.Queue.WaitingCost            .00000     .00000     .00000     .00000        848    
+Quality check.Queue.WaitingTime             .01595     .00100     .00000     .15363       8399    
+Quality check.Queue.WaitingCost             .00000     .00000     .00000     .00000       8399    
+Assembling process.Queue.WaitingTime        .55493     (Corr)     .00000     1.2914       8400    
+Assembling process.Queue.WaitingCost        .00000     .00000     .00000     .00000       8400    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Phone 2.WIP                                 103.12     (Insuf)    .00000     180.00     105.00    
+Phone 1.WIP                                 100.39     (Insuf)    .00000     178.00     102.00    
+Labor 1.NumberBusy                          1.1119     .00523     .00000     5.0000     .00000    
+Labor 1.NumberScheduled                     5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Labor 1.Utilization                         .22239     .00105     .00000     1.0000     .00000    
+Labor 2.NumberBusy                          4.2238     .00683     .00000     5.0000     1.0000    
+Labor 2.NumberScheduled                     5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Labor 2.Utilization                         .84477     .00137     .00000     1.0000     .20000    
+Machine 1.NumberBusy                        4.5597     .02766     .00000     5.0000     4.0000    
+Machine 1.NumberScheduled                   5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Machine 1.Utilization                       .91195     .00553     .00000     1.0000     .80000    
+Machine 2.NumberBusy                        4.2209     .00845     .00000     5.0000     5.0000    
+Machine 2.NumberScheduled                   5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Machine 2.Utilization                       .84418     .00169     .00000     1.0000     1.0000    
+Machine 3.NumberBusy                        .00813     (Insuf)    .00000     1.0000     .00000    
+Machine 3.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Machine 3.Utilization                       .00407     (Insuf)    .00000     .50000     .00000    
+Plane.NumberBusy                            .07425     (Insuf)    .00000     1.0000     .00000    
+Plane.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Plane.Utilization                           .07425     (Insuf)    .00000     1.0000     .00000    
+Ship.NumberBusy                             .24048     (Insuf)    .00000     1.0000     .00000    
+Ship.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Ship.Utilization                            .24048     (Insuf)    .00000     1.0000     .00000    
+Ship delivery.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Preparation.Queue.NumberInQueue             3.8878     .02023     .00000     35.000     .00000    
+Order are weighted.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Plane delivery.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Packaging.Queue.NumberInQueue               99.228     (Corr)     .00000     200.00     158.00    
+Rework process.Queue.NumberInQueue          1.0590     .10765     .00000     8.0000     .00000    
+Quality check.Queue.NumberInQueue           .31900     .02340     .00000     5.0000     .00000    
+Assembling process.Queue.NumberInQueue      11.098     .07061     .00000     31.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Phone 2.NumberIn                            4242.0    
+Phone 2.NumberOut                           4137.0    
+Phone 1.NumberIn                            4239.0    
+Phone 1.NumberOut                           4137.0    
+Labor 1.NumberSeized                        8400.0    
+Labor 1.ScheduledUtilization                .22239    
+Labor 1.BusyCost                            4203.2    
+Labor 1.IdleCost                            .00000    
+Labor 1.UsageCost                           .00000    
+Labor 2.NumberSeized                        8400.0    
+Labor 2.ScheduledUtilization                .84477    
+Labor 2.BusyCost                            15964.    
+Labor 2.IdleCost                            .00000    
+Labor 2.UsageCost                           .00000    
+Machine 1.NumberSeized                      9248.0    
+Machine 1.ScheduledUtilization              .91195    
+Machine 1.BusyCost                          7658.5    
+Machine 1.IdleCost                          .00000    
+Machine 1.UsageCost                         .00000    
+Machine 2.NumberSeized                      8399.0    
+Machine 2.ScheduledUtilization              .84418    
+Machine 2.BusyCost                          7089.9    
+Machine 2.IdleCost                          .00000    
+Machine 2.UsageCost                         .00000    
+Machine 3.NumberSeized                      41.000    
+Machine 3.ScheduledUtilization              .00407    
+Machine 3.BusyCost                          13.666    
+Machine 3.IdleCost                          .00000    
+Machine 3.UsageCost                         .00000    
+Plane.NumberSeized                          17.000    
+Plane.ScheduledUtilization                  .07425    
+Plane.BusyCost                              4677.5    
+Plane.IdleCost                              .00000    
+Plane.UsageCost                             .00000    
+Ship.NumberSeized                           24.000    
+Ship.ScheduledUtilization                   .24048    
+Ship.BusyCost                               3030.0    
+Ship.IdleCost                               .00000    
+Ship.UsageCost                              .00000    
+All Entities.VACost                         42637.    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      42637.    
+All Resources.BusyCost                      42637.    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     42637.    
+System.TotalCost                            42637.    
+System.NumberOut                            74.000    
+
+Beginning replication 3 of 3
+
+                                      ARENA Simulation Results
+                                     University of Huddersfield
+
+                                  Summary for Replication 3 of 3
+
+Project: Assessment sample Mobile phone                              Run execution date :11/16/2023
+Analyst: University of Huddersfield                                  Model revision date:11/16/2023
+
+Replication ended at time      : 420.0 Hours (Sunday, December 03, 2023, 11:09:02)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Record failed order 2                           --         --         --         --          0
+Record failed order 1                       173.55     (Insuf)    25.386     347.15          4    
+Record scrapped parts                       193.46     (Insuf)    5.9489     415.92         48    
+Record complete order 2                     248.68     (Insuf)    54.294     414.99         21    
+Record complete order 1                     181.85     (Insuf)    15.868     398.12         16    
+Record salvaged parts                       213.23     (Corr)     2.0600     419.96        764    
+Record shipped parts                        209.95     (Corr)     .65453     419.99       7575    
+Phone 2.VATime                              42.665     (Insuf)    .61043     103.78         48    
+Phone 2.NVATime                             .00000     (Insuf)    .00000     .00000         48    
+Phone 2.WaitTime                            486.71     (Insuf)    1.0598     1192.4         48    
+Phone 2.TranTime                            14.194     (Insuf)    .16667     33.833         48    
+Phone 2.OtherTime                           .00000     (Insuf)    .00000     .00000         48    
+Phone 2.TotalTime                           7.4460     (Insuf)    1.8586     17.290         48    
+Phone 2.VACost                              432.96     (Insuf)    4.2481     1212.6         48    
+Phone 2.NVACost                             .00000     (Insuf)    .00000     .00000         48    
+Phone 2.WaitCost                            .00000     (Insuf)    .00000     .00000         48    
+Phone 2.TranCost                            .00000     (Insuf)    .00000     .00000         48    
+Phone 2.OtherCost                           .00000     (Insuf)    .00000     .00000         48    
+Phone 2.TotalCost                           432.96     (Insuf)    4.2481     1212.6         48    
+Phone 1.VATime                              52.409     (Insuf)    .60080     104.05         41    
+Phone 1.NVATime                             .00000     (Insuf)    .00000     .00000         41    
+Phone 1.WaitTime                            597.82     (Insuf)    1.1808     1191.5         41    
+Phone 1.TranTime                            17.410     (Insuf)    .16667     33.833         41    
+Phone 1.OtherTime                           .00000     (Insuf)    .00000     .00000         41    
+Phone 1.TotalTime                           8.7146     (Insuf)    2.0163     17.449         41    
+Phone 1.VACost                              531.37     (Insuf)    4.3173     1248.7         41    
+Phone 1.NVACost                             .00000     (Insuf)    .00000     .00000         41    
+Phone 1.WaitCost                            .00000     (Insuf)    .00000     .00000         41    
+Phone 1.TranCost                            .00000     (Insuf)    .00000     .00000         41    
+Phone 1.OtherCost                           .00000     (Insuf)    .00000     .00000         41    
+Phone 1.TotalCost                           531.37     (Insuf)    4.3173     1248.7         41    
+Ship delivery.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000         20    
+Ship delivery.Queue.WaitingCost             .00000     (Insuf)    .00000     .00000         20    
+Preparation.Queue.WaitingTime               .19399     (Corr)     .00000     .44818       8400    
+Preparation.Queue.WaitingCost               .00000     .00000     .00000     .00000       8400    
+Order are weighted.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000         41    
+Order are weighted.Queue.WaitingCost        .00000     (Insuf)    .00000     .00000         41    
+Plane delivery.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000         21    
+Plane delivery.Queue.WaitingCost            .00000     (Insuf)    .00000     .00000         21    
+Packaging.Queue.WaitingTime                 5.0145     .17231     .00000     10.353       8200    
+Packaging.Queue.WaitingCost                 .00000     .00000     .00000     .00000       8200    
+Rework process.Queue.WaitingTime            .56883     .03206     .00000     1.2957        817    
+Rework process.Queue.WaitingCost            .00000     .00000     .00000     .00000        817    
+Quality check.Queue.WaitingTime             .01527     .00123     .00000     .15503       8399    
+Quality check.Queue.WaitingCost             .00000     .00000     .00000     .00000       8399    
+Assembling process.Queue.WaitingTime        .55504     (Corr)     .00000     1.2967       8400    
+Assembling process.Queue.WaitingCost        .00000     .00000     .00000     .00000       8400    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Phone 2.WIP                                 98.155     (Insuf)    .00000     179.00     92.000    
+Phone 1.WIP                                 99.287     (Insuf)    .00000     179.00     100.00    
+Labor 1.NumberBusy                          1.1134     .00497     .00000     5.0000     .00000    
+Labor 1.NumberScheduled                     5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Labor 1.Utilization                         .22269      9.9305E-4 .00000     1.0000     .00000    
+Labor 2.NumberBusy                          4.2206     .00737     .00000     5.0000     .00000    
+Labor 2.NumberScheduled                     5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Labor 2.Utilization                         .84414     .00147     .00000     1.0000     .00000    
+Machine 1.NumberBusy                        4.5437     .01571     .00000     5.0000     5.0000    
+Machine 1.NumberScheduled                   5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Machine 1.Utilization                       .90875     .00314     .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        4.2171     .00792     .00000     5.0000     5.0000    
+Machine 2.NumberScheduled                   5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Machine 2.Utilization                       .84344     .00158     .00000     1.0000     1.0000    
+Machine 3.NumberBusy                        .00813     (Insuf)    .00000     1.0000     .00000    
+Machine 3.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Machine 3.Utilization                       .00407     (Insuf)    .00000     .50000     .00000    
+Plane.NumberBusy                            .09341     (Insuf)    .00000     1.0000     .00000    
+Plane.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Plane.Utilization                           .09341     (Insuf)    .00000     1.0000     .00000    
+Ship.NumberBusy                             .19159     (Insuf)    .00000     1.0000     .00000    
+Ship.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Ship.Utilization                            .19159     (Insuf)    .00000     1.0000     .00000    
+Ship delivery.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Preparation.Queue.NumberInQueue             3.8797     .01923     .00000     35.000     .00000    
+Order are weighted.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Plane delivery.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Packaging.Queue.NumberInQueue               99.110     (Corr)     .00000     200.00     139.00    
+Rework process.Queue.NumberInQueue          1.1079     .08292     .00000     8.0000     2.0000    
+Quality check.Queue.NumberInQueue           .30548     (Corr)     .00000     5.0000     1.0000    
+Assembling process.Queue.NumberInQueue      11.100     .05270     .00000     31.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Phone 2.NumberIn                            4240.0    
+Phone 2.NumberOut                           4148.0    
+Phone 1.NumberIn                            4241.0    
+Phone 1.NumberOut                           4141.0    
+Labor 1.NumberSeized                        8400.0    
+Labor 1.ScheduledUtilization                .22269    
+Labor 1.BusyCost                            4208.7    
+Labor 1.IdleCost                            .00000    
+Labor 1.UsageCost                           .00000    
+Labor 2.NumberSeized                        8400.0    
+Labor 2.ScheduledUtilization                .84414    
+Labor 2.BusyCost                            15954.    
+Labor 2.IdleCost                            .00000    
+Labor 2.UsageCost                           .00000    
+Machine 1.NumberSeized                      9217.0    
+Machine 1.ScheduledUtilization              .90875    
+Machine 1.BusyCost                          7632.0    
+Machine 1.IdleCost                          .00000    
+Machine 1.UsageCost                         .00000    
+Machine 2.NumberSeized                      8399.0    
+Machine 2.ScheduledUtilization              .84344    
+Machine 2.BusyCost                          7083.1    
+Machine 2.IdleCost                          .00000    
+Machine 2.UsageCost                         .00000    
+Machine 3.NumberSeized                      41.000    
+Machine 3.ScheduledUtilization              .00407    
+Machine 3.BusyCost                          13.666    
+Machine 3.IdleCost                          .00000    
+Machine 3.UsageCost                         .00000    
+Plane.NumberSeized                          21.000    
+Plane.ScheduledUtilization                  .09341    
+Plane.BusyCost                              5884.7    
+Plane.IdleCost                              .00000    
+Plane.UsageCost                             .00000    
+Ship.NumberSeized                           20.000    
+Ship.ScheduledUtilization                   .19159    
+Ship.BusyCost                               2414.0    
+Ship.IdleCost                               .00000    
+Ship.UsageCost                              .00000    
+All Entities.VACost                         43190.    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      43190.    
+All Resources.BusyCost                      43190.    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     43190.    
+System.TotalCost                            43190.    
+System.NumberOut                            89.000    
+
+
+                                      ARENA Simulation Results
+                                     University of Huddersfield
+
+                                  Output Summary for 3 Replications
+
+Project: Assessment sample Mobile phone                              Run execution date :11/16/2023
+Analyst: University of Huddersfield                                  Model revision date:11/16/2023
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Phone 2.NumberIn                            4239.6     6.2521     4237.0     4242.0     3
+Phone 2.NumberOut                           4140.6     15.777     4137.0     4148.0     3
+Phone 1.NumberIn                            4241.3     6.2521     4239.0     4244.0     3
+Phone 1.NumberOut                           4140.6     8.7247     4137.0     4144.0     3
+Labor 1.NumberSeized                        8400.0     .00000     8400.0     8400.0     3
+Labor 1.ScheduledUtilization                .22253      3.6687E-4 .22239     .22269     3
+Labor 1.BusyCost                            4205.7     6.9338     4203.2     4208.7     3
+Labor 1.IdleCost                            .00000     .00000     .00000     .00000     3
+Labor 1.UsageCost                           .00000     .00000     .00000     .00000     3
+Labor 2.NumberSeized                        8400.0     .00000     8400.0     8400.0     3
+Labor 2.ScheduledUtilization                .84440      8.1799E-4 .84414     .84477     3
+Labor 2.BusyCost                            15958.     12.730     15954.     15964.     3
+Labor 2.IdleCost                            .00000     .00000     .00000     .00000     3
+Labor 2.UsageCost                           .00000     .00000     .00000     .00000     3
+Machine 1.NumberSeized                      9228.6     41.891     9217.0     9248.0     3
+Machine 1.ScheduledUtilization              .90996     .00432     .90875     .91195     3
+Machine 1.BusyCost                          7642.2     35.413     7632.0     7658.5     3
+Machine 1.IdleCost                          .00000     .00000     .00000     .00000     3
+Machine 1.UsageCost                         .00000     .00000     .00000     .00000     3
+Machine 2.NumberSeized                      8399.3     1.4343     8399.0     8400.0     3
+Machine 2.ScheduledUtilization              .84403     .00133     .84344     .84447     3
+Machine 2.BusyCost                          7088.5     12.137     7083.1     7092.6     3
+Machine 2.IdleCost                          .00000     .00000     .00000     .00000     3
+Machine 2.UsageCost                         .00000     .00000     .00000     .00000     3
+Machine 3.NumberSeized                      41.000     .00000     41.000     41.000     3
+Machine 3.ScheduledUtilization              .00407      2.1548E-8 .00407     .00407     3
+Machine 3.BusyCost                          13.666     .00000     13.666     13.666     3
+Machine 3.IdleCost                          .00000     .00000     .00000     .00000     3
+Machine 3.UsageCost                         .00000     .00000     .00000     .00000     3
+Plane.NumberSeized                          18.000     6.5729     16.000     21.000     3
+Plane.ScheduledUtilization                  .07813     .03416     .06674     .09341     3
+Plane.BusyCost                              4922.3     2152.2     4204.7     5884.7     3
+Plane.IdleCost                              .00000     .00000     .00000     .00000     3
+Plane.UsageCost                             .00000     .00000     .00000     .00000     3
+Ship.NumberSeized                           23.000     6.5729     20.000     25.000     3
+Ship.ScheduledUtilization                   .22196     .06586     .19159     .24048     3
+Ship.BusyCost                               2796.6     829.81     2414.0     3030.0     3
+Ship.IdleCost                               .00000     .00000     .00000     .00000     3
+Ship.UsageCost                              .00000     .00000     .00000     .00000     3
+All Entities.VACost                         42627.     1410.1     42055.     43190.     3
+All Entities.NVACost                        .00000     .00000     .00000     .00000     3
+All Entities.WaitCost                       .00000     .00000     .00000     .00000     3
+All Entities.TranCost                       .00000     .00000     .00000     .00000     3
+All Entities.OtherCost                      .00000     .00000     .00000     .00000     3
+All Entities.TotalCost                      42627.     1410.1     42055.     43190.     3
+All Resources.BusyCost                      42627.     1410.1     42055.     43190.     3
+All Resources.IdleCost                      .00000     .00000     .00000     .00000     3
+All Resources.UsageCost                     .00000     .00000     .00000     .00000     3
+All Resources.TotalCost                     42627.     1410.1     42055.     43190.     3
+System.TotalCost                            42627.     1410.1     42055.     43190.     3
+System.NumberOut                            81.333     18.646     74.000     89.000     3
+
+Simulation run time: 0.20 minutes.
+Simulation run complete.
