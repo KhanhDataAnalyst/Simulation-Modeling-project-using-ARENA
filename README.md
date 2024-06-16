@@ -4,3 +4,4 @@ The simulation model could be viewed in the **Smartphone modeling.db** file whic
 Figure 1 demonstrates the image of the model.
 After being built, the model was executed in 3 replications so as to generate a simulation result report (**Model_report.txt** file)
 Lastly, 4 key performance indicators including _cost per unit_, _production yield_, _distribution cost per unit_ and _on time in full indicator_ were evaluated using the generated report so as to examine the performance of the model and suggest direction for further improvement.  
+Detailed analysis of the model's report could be accessed via the **Smartphone simulation model analysis.docx** file.
